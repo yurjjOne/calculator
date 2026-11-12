@@ -21,3 +21,8 @@ def div(a, b):
     if b == 0:
         return None
     return a / b
+
+
+def power(x, n=2):
+    """Степінь x ** n; за замовчуванням — квадрат."""
+    return x ** n

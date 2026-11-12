@@ -1,11 +1,13 @@
 """Калькулятор з меню. Усі обчислення — у модулі calc.py."""
 from calc import add, sub, mul, div
+from calc import power
 
 MENU = """
 1 — додавання
 2 — віднімання
 3 — множення
 4 — ділення
+5 — степінь
 0 — вихід"""
 
 
@@ -39,6 +41,13 @@ def main():
                 print("Ділити на нуль не можна")
             else:
                 print("Результат:", result)
+        elif choice == "5":
+            x = float(input("Число: "))
+            n_text = input("Степінь (Enter — квадрат): ")
+            if n_text == "":
+                print("Результат:", power(x))
+            else:
+                print("Результат:", power(x, float(n_text)))
         else:
             print("Невідомий пункт меню")
 
