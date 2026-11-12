@@ -12,6 +12,7 @@
 - `calc.py` → `percent(value, p)` — відсоток від числа
 - `main.py` — меню, функції підключено через `from calc import ...`
 - `tools.py` — мої функції `is_even`, `hypotenuse`; `use_tools.py` підключає їх через `import`
+- `newton.py` — задача 3.1 з П2 (корінь Ньютона) у вигляді функції `sqrt_newton`
 
 ## Запуск
 
