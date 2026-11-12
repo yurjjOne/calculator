@@ -14,6 +14,7 @@
 - `tools.py` — мої функції `is_even`, `hypotenuse`; `use_tools.py` підключає їх через `import`
 - `newton.py` — задача 3.1 з П2 (корінь Ньютона) у вигляді функції `sqrt_newton`
 - `recursion.py` — `digit_sum_rec(n)`, сума цифр рекурсією
+- `report.md` — звіт з тестами
 
 ## Запуск
 
