@@ -11,6 +11,7 @@
 - `calc.py` → `power(x, n=2)` — степінь
 - `calc.py` → `percent(value, p)` — відсоток від числа
 - `main.py` — меню, функції підключено через `from calc import ...`
+- `tools.py` — мої функції `is_even`, `hypotenuse`; `use_tools.py` підключає їх через `import`
 
 ## Запуск
 
