@@ -1,6 +1,7 @@
 """Калькулятор з меню. Усі обчислення — у модулі calc.py."""
 from calc import add, sub, mul, div
 from calc import power
+from calc import percent
 
 MENU = """
 1 — додавання
@@ -8,6 +9,7 @@ MENU = """
 3 — множення
 4 — ділення
 5 — степінь
+6 — відсоток від числа
 0 — вихід"""
 
 
@@ -48,6 +50,10 @@ def main():
                 print("Результат:", power(x))
             else:
                 print("Результат:", power(x, float(n_text)))
+        elif choice == "6":
+            value = float(input("Число: "))
+            p = float(input("Скільки відсотків: "))
+            print("Результат:", percent(value, p))
         else:
             print("Невідомий пункт меню")
 

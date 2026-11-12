@@ -26,3 +26,8 @@ def div(a, b):
 def power(x, n=2):
     """Степінь x ** n; за замовчуванням — квадрат."""
     return x ** n
+
+
+def percent(value, p):
+    """p відсотків від числа value."""
+    return value * p / 100
